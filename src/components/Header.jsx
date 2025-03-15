@@ -70,7 +70,7 @@ function Header() {
                         </ul>
                     </div>
                 ) : (
-                    <div className=" overflow-hidden mt-2 px-4 w-full fixed top-0 flex items-center justify-between backdrop-blur border-b border-[#ffffff3c] rounded-[10px] py-2">
+                    <div className="overflow-hidden mt-2 px-4 fixed top-0 left-3 right-3 flex items-center justify-between backdrop-blur border-b border-[#ffffff3c] rounded-[10px] py-1">
                         <div>
                             <img src="images/signature.png" alt="" className="h-[30px] object-contain" />
                         </div>

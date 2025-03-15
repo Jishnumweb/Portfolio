@@ -22,7 +22,7 @@ function Hero() {
 
                 {/* Image section */}
                 <div className=" h-auto lg:h-[530px] sm:h-[650px] border-gray-300 bg-[#25242450] rounded-[10px] lg:w-96  bg-blend-darken">
-                    <figure className='p-2'>
+                    <figure className='p-3'>
                         <img
                             src="images/jishnu.jpg"
                             alt="Shoes" className='rounded-[10px] saturate-0 hover:saturate-100' />
