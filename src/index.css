@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Herr+Von+Muellerhoff&family=Kablammo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Solid:wght@100;300;400;900&family=Moon+Dance&family=Odibee+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Stalemate&family=Tangerine:wght@400;700&family=Teko:wght@300..700&family=Varela&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  /* background-color: black; */
+}
+
+.txt {
+  position: relative;
+  /* font-weight: 500;
+  font-family: "Kanit", serif; */
+  overflow: hidden;
+  background: linear-gradient(90deg, #fff 10%, #ffffffe8 20%);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation:  4s  ease-in-out ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.538);
+}
+@keyframes animate {
+  0% {
+    background-position: -300px;
+  }
+  100% {
+    background-position: 300%;
+  }
+
+}
+
+/* From Uiverse.io by MarcLazz */ 
+.button-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #080808;
+  border: 2px solid #2d2e32;
+  transition: all 0.45s;
+}
+
+.button:hover {
+  transform: scale(1.2);
+  transform-origin: center center;
+  background-color: #ffffff;
+  color: #2d2e32;
+}
+
+.button:hover .btn-svg {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg)
+    brightness(103%) contrast(103%);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* get in touch button */
+
+.buttons {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 12px;
+  cursor: pointer;
+  color: rgba(173, 245, 18, 0.674);
+  z-index: 1;
+}
+
+.buttons:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.buttons:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.buttons:hover {
+  color: #ffffff;
+  /* border: 1px solid #39bda7; */
+  color: black;
+
+}
+
+.buttons:hover:before {
+  top: -35%;
+  background-color: #ffffff;
+  color: black;
+
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.buttons:hover:after {
+  top: -45%;
+  background-color: #ffffff;
+  color: black;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.signature-path {
+  animation: draw 3s linear forwards;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 200;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
