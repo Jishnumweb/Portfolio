@@ -21,7 +21,7 @@ function Hero() {
             <div className='flex lg:flex-row flex-col lg:gap-0 gap-5  justify-center items-center'>
 
                 {/* Image section */}
-                <div className=" h-[500px] lg:h-[530px] border-gray-300 bg-[#25242450] rounded-[10px] lg:w-96  bg-blend-darken">
+                <div className=" h-[500px] lg:h-[530px] sm:h-[650px] border-gray-300 bg-[#25242450] rounded-[10px] lg:w-96  bg-blend-darken">
                     <figure className='p-2'>
                         <img
                             src="images/jishnu.jpg"
@@ -39,8 +39,8 @@ function Hero() {
 
                             </div>
                         </div>
-                        <div className='mt-3 mb-2'>
-                            <button className='text-[10px] w-full lg:w-auto border-[#ffffff2a] border-2 text-[#95BD2F] lg:bg-[#bdff170f] bg-[#67852009] lg:p-[9px_13px] rounded-[5px] font-bold p-[9px_0px]'>
+                        <div className='mt-3 sm:mt-4 mb-2'>
+                            <button className='text-[10px] w-full lg:w-auto border-[#ffffff2a] border-2 text-[#95BD2F] lg:bg-[#bdff170f] bg-[#67852009] lg:p-[9px_13px] rounded-[5px] font-bold p-[9px_0px] sm:p-[13px_0]'>
                                 GET IN TOUCH
                             </button>
 
@@ -51,7 +51,7 @@ function Hero() {
                 {/* Content section */}
 
                 <div className=" p-0 flex flex-col gap-2 ">
-                    <div className="h-[100px] lg:h-[130px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px]">
+                    <div className="h-[100px] lg:h-[130px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px] sm:p-[24px]">
                         <p className='text-[10px] lg:text-[14px] text-[#BEC9C3]'>I’m a MERN stack developer and web designer passionate about the creating modern, responsive websites. I specialize in React, Node.js, Express, MongoDB, and Tailwind CSS. My work blends functionality with sleek design for the best user experience. Let’s build something amazing together! </p>
 
                     </div>
@@ -106,7 +106,7 @@ function Hero() {
                                 Mobile responsive
                             </button>
                             <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
-                                high-performance
+                                performance
                             </button>
                             <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
                                 user-friendly

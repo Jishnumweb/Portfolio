@@ -20,7 +20,7 @@ function Header() {
 
             {/* Large Screens */}
 
-            <div className="container fixed top-0 w-full hidden lg:flex justify-center items-center gap-8 backdrop-blur border-b border-[#ffffff3c] rounded-[15px] py-4 ">
+            <div className="container fixed top-0 w-full hidden sm:hidden lg:flex justify-center items-center gap-8 backdrop-blur border-b border-[#ffffff3c] rounded-[15px] py-4 ">
                 <div>
                     <img src="images/signature.png" alt="" className="h-[30px] object-contain" />
                 </div>
@@ -40,7 +40,7 @@ function Header() {
 
             {/* Mobile Menu */}
 
-            <div className="lg:hidden block">
+            <div className="lg:hidden sm:block block">
                 {show ? (
                     <div
                         className={` z-50 fixed top-0 left-0 h-screen w-full backdrop-blur-lg bg-black/80 text-white shadow-lg transition-transform duration-300 ease-in-out ${show ? "translate-x-0" : "-translate-x-full"
