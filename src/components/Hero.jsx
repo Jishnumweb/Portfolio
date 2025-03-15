@@ -21,7 +21,7 @@ function Hero() {
             <div className='flex lg:flex-row flex-col lg:gap-0 gap-5  justify-center items-center'>
 
                 {/* Image section */}
-                <div className=" h-[500px] lg:h-[530px] sm:h-[650px] border-gray-300 bg-[#25242450] rounded-[10px] lg:w-96  bg-blend-darken">
+                <div className=" h-auto lg:h-[530px] sm:h-[650px] border-gray-300 bg-[#25242450] rounded-[10px] lg:w-96  bg-blend-darken">
                     <figure className='p-2'>
                         <img
                             src="images/jishnu.jpg"
@@ -51,11 +51,11 @@ function Hero() {
                 {/* Content section */}
 
                 <div className=" p-0 flex flex-col gap-2 ">
-                    <div className="h-[100px] lg:h-[130px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px] sm:p-[24px]">
+                    <div className="h-auto lg:h-[130px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px] sm:p-[24px]">
                         <p className='text-[10px] lg:text-[14px] text-[#BEC9C3]'>I’m a MERN stack developer and web designer passionate about the creating modern, responsive websites. I specialize in React, Node.js, Express, MongoDB, and Tailwind CSS. My work blends functionality with sleek design for the best user experience. Let’s build something amazing together! </p>
 
                     </div>
-                    <div className='h-[505px] lg:h-[400px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px] lg:flex lg:flex-col justify-evenly'>
+                    <div className='h-auto lg:h-[400px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px] lg:flex lg:flex-col justify-evenly'>
                         <div className='grid lg:grid-cols-4 grid-cols-2 gap-3 pb-3 border-b rounded-[10px] border-[#ffffff1e]'>
                             <div className=' group lg:h-[100px] h-[80px]  transition  bg-[#2c28284f] lg:p-[20px_3-010x] flex flex-col justify-center items-center lg:rounded-[9px] rounded-[7px]'>
                                 <h4 className='text-[#ffffff90] group-hover:text-[#E34F26] transition duration-300 lg:text-[30px] text-[23px] '><FaHtml5 />
