@@ -52,7 +52,7 @@ function Hero() {
 
                 <div className=" p-0 flex flex-col gap-2 ">
                     <div className="h-auto lg:h-[130px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px] sm:p-[24px]">
-                        <p className='text-[10px] lg:text-[14px] text-[#BEC9C3]'>I’m a MERN stack developer and web designer passionate about the creating modern, responsive websites. I specialize in React, Node.js, Express, MongoDB, and Tailwind CSS. My work blends functionality with sleek design for the best user experience. Let’s build something amazing together! </p>
+                        <p className='text-[11px] lg:text-[14px] text-[#BEC9C3]'>I’m a MERN stack developer and web designer passionate about the creating modern, responsive websites. I specialize in React, Node.js, Express, MongoDB, and Tailwind CSS. My work blends functionality with sleek design for the best user experience. Let’s build something amazing together! </p>
 
                     </div>
                     <div className='h-auto lg:h-[400px] lg:w-[650px]  rounded-[10px]   bg-[#25242450] p-[10px] lg:p-[20px] lg:flex lg:flex-col justify-evenly'>
@@ -102,22 +102,22 @@ function Hero() {
                         </div>
 
                         <div className='mt-4 grid lg:grid-cols-4 grid-cols-3  gap-2 '>
-                            <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
+                            <button className='lg:text-[12px] text-[10px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
                                 Mobile responsive
                             </button>
-                            <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
-                                performance
+                            <button className='lg:text-[12px] text-[10px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
+                                High performance
                             </button>
-                            <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
+                            <button className='lg:text-[12px] text-[10px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
                                 user-friendly
                             </button>
-                            <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
+                            <button className='lg:text-[12px] text-[10px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
                                 Interactive
                             </button>
-                            <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
+                            <button className='lg:text-[12px] text-[10px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
                                 SEO-optimized
                             </button>
-                            <button className='lg:text-[12px] text-[9px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
+                            <button className='lg:text-[12px] text-[10px] p-2 rounded-[5px] text-[#ffffff8a] border-[#ffffff1e] bg-[#25242450]'>
                                 Scalable & Secure
                             </button>
                         </div>

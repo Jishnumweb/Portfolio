@@ -20,7 +20,7 @@ function Header() {
 
             {/* Large Screens */}
 
-            <div className="container fixed top-0 w-full hidden sm:hidden lg:flex justify-center items-center gap-8 backdrop-blur border-b border-[#ffffff3c] rounded-[15px] py-4 ">
+            <div className="container z-50 fixed top-0 w-full hidden sm:hidden lg:flex justify-center items-center gap-8 backdrop-blur border-b border-[#ffffff3c] rounded-[15px] py-4 ">
                 <div>
                     <img src="images/signature.png" alt="" className="h-[30px] object-contain" />
                 </div>
@@ -70,7 +70,7 @@ function Header() {
                         </ul>
                     </div>
                 ) : (
-                    <div className="overflow-hidden mt-2 px-4 fixed top-0 left-3 right-3 flex items-center justify-between backdrop-blur border-b border-[#ffffff3c] rounded-[10px] py-1">
+                    <div className="overflow-hidden mt-2 px-4 fixed z-50 top-0 left-3 right-3 flex items-center justify-between backdrop-blur border-b border-[#ffffff3c] rounded-[10px] py-2">
                         <div>
                             <img src="images/signature.png" alt="" className="h-[30px] object-contain" />
                         </div>

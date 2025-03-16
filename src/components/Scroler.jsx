@@ -1,6 +1,12 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import { FaSearch } from "react-icons/fa";
+import { LuNotebookPen } from "react-icons/lu";
+import { IoColorPaletteOutline } from "react-icons/io5";
+import { AiOutlineLaptop } from "react-icons/ai";
+import { MdSettingsSuggest } from "react-icons/md";
+import { GrDeploy } from "react-icons/gr";
+
 
 function Scroler() {
     return (
@@ -21,7 +27,7 @@ function Scroler() {
                     </div>
                     <div className="bg-[#413e3e47] lg:h-[250px] lg:w-[300px] h-auto py-3 text-[#bec9c3be] rounded-[8px] flex flex-col justify-center items-start px-3">
                         <div className='border-b border-[#ffffff2a] flex flex-col'>
-                            <h6><FaSearch /></h6>
+                            <h6><LuNotebookPen /></h6>
                             <h6> Planning & Strategy</h6>
                             <p className='lg:text-[12px] text-[10px] lg:w-auto w-[250px]'>Next, I outline a clear roadmap, creating wireframes, user flows, and defining the tech stack that best fits the project. This step ensures efficiency in execution.</p>
                         </div>
@@ -33,7 +39,7 @@ function Scroler() {
                     </div>
                     <div className="bg-[#413e3e47] lg:h-[250px] lg:w-[300px] h-auto py-3 text-[#bec9c3be] rounded-[8px] flex flex-col justify-center items-start px-3">
                         <div className='border-b border-[#ffffff2a] flex flex-col'>
-                            <h6><FaSearch /></h6>
+                            <h6><IoColorPaletteOutline /></h6>
                             <h6>Design & Prototyping</h6>
                             <p className='lg:text-[12px] text-[10px] lg:w-auto w-[250px]'>Using modern UI/UX principles, I craft visually appealing and user-friendly designs. I create prototypes to visualize the final product and gather feedback before development.</p>
                         </div>
@@ -45,7 +51,7 @@ function Scroler() {
                     </div>
                     <div className="bg-[#413e3e47] lg:h-[250px] lg:w-[300px] h-auto py-3 text-[#bec9c3be] rounded-[8px] flex flex-col justify-center items-start px-3">
                         <div className='border-b border-[#ffffff2a] flex flex-col'>
-                            <h6><FaSearch /></h6>
+                            <h6><AiOutlineLaptop /></h6>
                             <h6> Development & Implementation </h6>
                             <p className='lg:text-[12px] text-[10px] lg:w-auto w-[250px]'>I bring the designs to life using clean, optimized code. Whether it’s frontend, backend, or full-stack development, I ensure the project is responsive, scalable, and performs well.</p>
                         </div>
@@ -57,7 +63,7 @@ function Scroler() {
                     </div>
                     <div className="bg-[#413e3e47] lg:h-[250px] lg:w-[300px] h-auto py-3 text-[#bec9c3be] rounded-[8px] flex flex-col justify-center items-start px-3">
                         <div className='border-b border-[#ffffff2a] flex flex-col'>
-                            <h6><FaSearch /></h6>
+                            <h6><MdSettingsSuggest /></h6>
                             <h6>  Testing & Refinement </h6>
                             <p className='lg:text-[12px] text-[10px] lg:w-auto w-[250px]'>Before launching, I conduct thorough testing—checking responsiveness, speed, security, and usability—to eliminate any bugs or issues.</p>
                         </div>
@@ -67,9 +73,9 @@ function Scroler() {
                             </button>
                         </div>
                     </div>
-                    <div className="bg-[#413e3e47] lg:h-[250px] lg:w-[300px] h-auto py-3 text-[#bec9c3be] rounded-[8px] flex flex-col justify-center items-start px-3">
+                    <div className="mr-4 bg-[#413e3e47] lg:h-[250px] lg:w-[300px] h-auto py-3 text-[#bec9c3be] rounded-[8px] flex flex-col justify-center items-start px-3">
                         <div className='border-b border-[#ffffff2a] flex flex-col'>
-                            <h6><FaSearch /></h6>
+                            <h6><GrDeploy /></h6>
                             <h6> Deployment & Maintenance </h6>
                             <p className='lg:text-[12px] text-[10px] lg:w-auto w-[250px]'>Once everything is polished, I deploy the project live. I also provide post-launch support, updates, and improvements to keep it running smoothly.</p>
                         </div>
@@ -84,6 +90,7 @@ function Scroler() {
 
                 </div>
             </Marquee>
+
 
 
 
