@@ -4,6 +4,9 @@ import Hero from '../components/Hero'
 import Service from '../components/Service'
 import Scroler from '../components/Scroler'
 import Projects from '../components/Projects'
+import Testimonials from '../components/Testimonials'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 
 function Homepage() {
@@ -24,11 +27,16 @@ function Homepage() {
         </div>
 
         <div className="service-section container lg:mt-5 mt-5 ">
-
           <Projects/>
         </div>
-        <div className="service-section container">
-          <Service/>
+        <div className="service-section container lg:mt-[100px] mt-[100px]">
+          <Testimonials/>
+        </div>
+        <div className="service-section container lg:mt-[100px] mt-[70px]">
+          <Contact/>
+        </div>
+        <div className="service-section container lg:mt-[100px] mt-[70px]">
+          <Footer/>
         </div>
       
     </div>
