@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaInstagram } from "react-icons/fa6";import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
@@ -13,6 +13,13 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 
 function Hero() {
+    const sendMessage = () => {
+        let phoneNumber = "+918590986241"; // Replace with your number
+        let message = encodeURIComponent("Hi, I just saw your portfolio and I'm interested in working with you! Let's connect.");
+        window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+      };
+
+
     return (
         <div className='bg-black '>
 
@@ -32,15 +39,19 @@ function Hero() {
                         <p className='font-varela'>Full stack web developer based in kerala</p>
                         <div className='pb-3 border-b border-[#ffffff2a]'>
                             <div className="button-container lg:text-[25px] text-[20px]">
-                            <FaInstagram />
-                            <FaGithub />
-                            <FaXTwitter />
-                            <FaLinkedin />
+                                <a href="https://www.instagram.com/jishnum.dev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className='text-[#BEC9C3]'><FaInstagram />
+                                </a>
+                                <a href="https://github.com/Jishnumweb/Portfolio.git" className='text-[#BEC9C3]'><FaGithub />
+                                </a>
+                                <a href="" className='text-[#BEC9C3]'> <FaXTwitter />
+                                </a>
+                                <a href="https://www.linkedin.com/in/jishnu-m-a9700a324" className='text-[#BEC9C3]'><FaLinkedin />
+                                </a>
 
                             </div>
                         </div>
                         <div className='mt-3 sm:mt-4 mb-2'>
-                            <button className='text-[10px] w-full lg:w-auto border-[#ffffff2a] border-2 text-[#95BD2F] lg:bg-[#bdff170f] bg-[#67852009] lg:p-[9px_13px] rounded-[5px] font-bold p-[9px_0px] sm:p-[13px_0]'>
+                            <button className='text-[10px] w-full lg:w-auto border-[#ffffff2a] border-2 text-[#95BD2F] lg:bg-[#bdff170f] bg-[#67852009] lg:p-[9px_13px] rounded-[5px] font-bold p-[9px_0px] sm:p-[13px_0] ' onClick={sendMessage}>
                                 GET IN TOUCH
                             </button>
 

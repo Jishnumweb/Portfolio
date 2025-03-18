@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Header() {
     const [show, setShow] = useState(false);
 
-    const navLinks = [{ label: "Home" }, { label: "Service" }, { label: "Projects" }, { label: "Testimonials" }, { label: "Contact" }]
+    const navLinks = [{ label: "Home" ,link:"#home"}, { label: "Workflow",link:"#process" }, { label: "Projects",link:"#projects" }, { label: "Testimonials",link:"#testimonials" }, { label: "Contact" ,link:"#contact"}]
 
     // Prevent background scrolling when menu is open
 
@@ -29,7 +29,7 @@ function Header() {
                         {
                             navLinks.map((nav, index) => (
                                 <div key={index}>
-                                    <li className="mt-2 text-[#ffffff8f] relative text-[13px] transition-all duration-300 after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-[#95BD2F] after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100">{nav.label}</li>
+                                    <li className="  mt-2 text-[#ffffff8f] relative text-[13px] transition-all duration-300 after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-[#95BD2F] after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"><a href={nav.link} className="no-underline text-[#ffffff8f]">{nav.label}</a></li>
 
                                 </div>
                             ))
@@ -62,7 +62,7 @@ function Header() {
                             {
                                 navLinks.map((nav, index) => (
                                     <div key={index}>
-                                        <li className="text-[13px]">{nav.label}</li>
+                                        <li className="text-[13px] "><a href={nav.link} className="no-underline text-[#ffffff8f]">{nav.label}</a></li>
 
                                     </div>
                                 ))

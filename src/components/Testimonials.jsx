@@ -20,7 +20,7 @@ function Testimonials() {
                         exit={{ opacity: 0 }}
                     >
                         <div className='flex gap-3 mb-3 border-b rounded-[5px] py-2 border-[#ffffff5c]'>
-                            <img src="https://www.freepnglogos.com/uploads/camera-logo-png/camera-logo-cliparts-31.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px]' />
+                            <img src="https://www.freepnglogos.com/uploads/camera-logo-png/camera-logo-cliparts-31.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px] saturate-50' />
                             <div>
                                 <h6 className='mb-0 lg:text-base text-[13px]'>Aravind viswanathan</h6>
                                 <p className='text-[#95bd2fb5] lg:text-base text-[10px]'>pixelar photography</p>
@@ -38,7 +38,7 @@ function Testimonials() {
                         exit={{ opacity: 0 }}
                     >
                         <div className='flex gap-3 mb-3 border-b rounded-[5px] py-2 border-[#ffffff5c]'>
-                            <img src='https://static.vecteezy.com/system/resources/previews/023/363/687/large_2x/green-leaf-icon-free-png.png'  alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px]'/>
+                            <img src='https://static.vecteezy.com/system/resources/previews/023/363/687/large_2x/green-leaf-icon-free-png.png'  alt="" className='saturate-50 lg:h-[50px] h-[35px] object-cover rounded-[7px]'/>
                             <div>
                                 <h6 className='mb-0 lg:text-base text-[13px]'>Bhavya</h6>
                                 <p className='text-[#95bd2fb5]  lg:text-base text-[10px]'>Bhavyas plant nursery</p>
@@ -56,7 +56,7 @@ function Testimonials() {
                         exit={{ opacity: 0 }}
                     >
                         <div className='flex gap-3 mb-3 border-b rounded-[5px] py-2 border-[#ffffff5c]'>
-                            <img src="https://webstockreview.net/images/mandala-clipart-henna-tattoo-16.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px]' />
+                            <img src="https://webstockreview.net/images/mandala-clipart-henna-tattoo-16.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px] saturate-50' />
                             <div>
                                 <h6 className='mb-0 lg:text-base text-[13px]'>Rizwana</h6>
                                 <p className='text-[#95bd2fb5]  lg:text-base text-[10px]'>Arabian Henna</p>
@@ -74,7 +74,7 @@ function Testimonials() {
                         exit={{ opacity: 0 }}
                     >
                         <div className='flex gap-3 mb-3 border-b rounded-[5px] py-2 border-[#ffffff5c]'>
-                            <img src="https://logos-world.net/wp-content/uploads/2020/06/Liverpool-Logo.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px]' />
+                            <img src="https://logos-world.net/wp-content/uploads/2020/06/Liverpool-Logo.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px] saturate-50' />
                             <div>
                                 <h6 className='mb-0 lg:text-base text-[13px]'>Liverpool fans</h6>
                                 <p className='text-[#95bd2fb5] lg:text-base text-[10px]'>Liverpool Fans Kerala</p>
