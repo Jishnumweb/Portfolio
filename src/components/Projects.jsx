@@ -33,7 +33,7 @@ function Projects() {
         >
           <img src="https://wallpapercave.com/wp/wp14657012.jpg" alt="" className='object-cover lg:h-[450px] h-[auto] saturate-0 hover:saturate-100 rounded-[10px]' />
           <div>
-            <h6 className='lg:text-[20px] text-[17px] mb-0 mt-3'>Bhavyas Plant Nursery</h6>
+            <h6 className='lg:text-[20px] text-[17px] mb-0 mt-3'>Plant Nursery</h6>
             <p className='lg:text-[14px] text-[10px] mb-2'> An e-commerce platform <span className='text-red-100'>(Under maintanence)</span> </p>
             <div className='flex justify-start items-start'>
               <a href="https://bhavyasplant.netlify.app/" className='no-underline text-[#ffffffbe]'><IoIosArrowDropright className='lg:text-[30px] text-[30px]'/>

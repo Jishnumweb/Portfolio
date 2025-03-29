@@ -39,7 +39,7 @@ function Hero() {
                         <p className='font-varela'>Full stack web developer based in kerala</p>
                         <div className='pb-3 border-b border-[#ffffff2a]'>
                             <div className="button-container lg:text-[25px] text-[20px]">
-                                <a href="https://www.instagram.com/jishnum.dev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className='text-[#BEC9C3]'><FaInstagram />
+                                <a href="" className='text-[#BEC9C3]'><FaInstagram />
                                 </a>
                                 <a href="" className='text-[#BEC9C3]'><FaGithub />
                                 </a>
