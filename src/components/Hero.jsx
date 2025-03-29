@@ -14,7 +14,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Hero() {
     const sendMessage = () => {
-        let phoneNumber = "+918590986241"; // Replace with your number
+        let phoneNumber = "+919778732718"; // Replace with your number
         let message = encodeURIComponent("Hi, I just saw your portfolio and I'm interested in working with you! Let's connect.");
         window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
       };
@@ -31,7 +31,7 @@ function Hero() {
                 <div className=" h-auto lg:h-[530px] sm:h-[650px] border-gray-300 bg-[#25242450] rounded-[10px] lg:w-96  bg-blend-darken">
                     <figure className='p-3'>
                         <img
-                            src="images/jishnu.jpg"
+                            src="images/black.jpg"
                             alt="Shoes" className='rounded-[10px] saturate-0 hover:saturate-100' />
                     </figure>
                     <div className=" px-3 pb-2 text-[#BEC9C3]">
@@ -41,11 +41,11 @@ function Hero() {
                             <div className="button-container lg:text-[25px] text-[20px]">
                                 <a href="https://www.instagram.com/jishnum.dev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className='text-[#BEC9C3]'><FaInstagram />
                                 </a>
-                                <a href="https://github.com/Jishnumweb/Portfolio.git" className='text-[#BEC9C3]'><FaGithub />
+                                <a href="" className='text-[#BEC9C3]'><FaGithub />
                                 </a>
                                 <a href="" className='text-[#BEC9C3]'> <FaXTwitter />
                                 </a>
-                                <a href="https://www.linkedin.com/in/jishnu-m-a9700a324" className='text-[#BEC9C3]'><FaLinkedin />
+                                <a href="" className='text-[#BEC9C3]'><FaLinkedin />
                                 </a>
 
                             </div>

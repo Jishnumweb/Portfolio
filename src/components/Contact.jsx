@@ -3,7 +3,7 @@ import { BsTelephoneForward } from "react-icons/bs";
 
 function Contact() {
   const sendMessage = () => {
-    let phoneNumber = "+918590986241"; // Replace with your number
+    let phoneNumber = "+919778732718"; // Replace with your number
     let message = encodeURIComponent("Hi, I just saw your portfolio and I'm interested in working with you! Let's connect.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };

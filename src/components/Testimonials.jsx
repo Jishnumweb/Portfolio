@@ -20,16 +20,16 @@ function Testimonials() {
                         exit={{ opacity: 0 }}
                     >
                         <div className='flex gap-3 mb-3 border-b rounded-[5px] py-2 border-[#ffffff5c]'>
-                            <img src="https://www.freepnglogos.com/uploads/camera-logo-png/camera-logo-cliparts-31.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px] saturate-50' />
+                            <img src="https://pnghq.com/wp-content/uploads/brazil-jersey-png-free-unlimited-png-download-21990-1024x1024.png" alt="" className='lg:h-[50px] h-[35px] object-cover rounded-[7px] saturate-50' />
                             <div>
-                                <h6 className='mb-0 lg:text-base text-[13px]'>Aravind viswanathan</h6>
-                                <p className='text-[#95bd2fb5] lg:text-base text-[10px]'>pixelar photography</p>
+                                <h6 className='mb-0 lg:text-base text-[13px]'>Farhan mhd</h6>
+                                <p className='text-[#95bd2fb5] lg:text-base text-[10px]'>KickWear - store</p>
                             </div>
                         </div>
                         {/* <div className='flex text-yellow-400 mb-3'>
                         <RxStarFilled /><RxStarFilled /><RxStarFilled /><RxStarFilled /><RxStarFilled />
                         </div> */}
-                        <p className='lg:text-base text-[11px]'>"Jishnu brought my vision to life with a sleek and stunning website. His attention to detail and creative touch made my photography portfolio truly stand out!"</p>
+                        <p className='lg:text-base text-[11px]'>"Jishnu did an amazing job creating our KickWear website! The design is sleek, fast, and perfect for football jersey lovers. Highly recommended!"</p>
                     </motion.div>
                     <motion.div className='lg:w-[500px] p-3 sticky top-[200px] bg-gradient-to-b to-[#0d0d0d] from-[#1b1a1a]  rounded-[10px]   lg:h-[250px] flex flex-col justify-center shadow-lg border-[#ffffff53] text-[#ffffffbe]  '
                         // initial={{ opacity: 0 }}

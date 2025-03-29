@@ -13,10 +13,10 @@ function Projects() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           viewport={{once:true}}
         >
-          <img src="https://wallpaperaccess.com/full/3250694.jpg" alt="" className='object-cover lg:h-[450px] h-[auto] saturate-0 hover:saturate-100 rounded-[10px]' />
+          <img src="images/jersey.png" alt="" className='object-cover lg:h-[450px] h-[auto] saturate-0 hover:saturate-100 rounded-[10px]' />
           <div>
-            <h6 className='lg:text-[20px] text-[17px] mb-0 mt-3'>Pixelar Imaging Studio </h6>
-            <p className='lg:text-[14px] text-[10px] mb-2'>A dynamic photography platform</p>
+            <h6 className='lg:text-[20px] text-[17px] mb-0 mt-3'>Kickwear Jersey Shop</h6>
+            <p className='lg:text-[14px] text-[10px] mb-2'>E-Commerce Web application</p>
             <div className='flex justify-start items-start'>
             <IoIosArrowDropright className='lg:text-[30px] text-[25px]'/>
             </div>
@@ -34,9 +34,10 @@ function Projects() {
           <img src="https://wallpapercave.com/wp/wp14657012.jpg" alt="" className='object-cover lg:h-[450px] h-[auto] saturate-0 hover:saturate-100 rounded-[10px]' />
           <div>
             <h6 className='lg:text-[20px] text-[17px] mb-0 mt-3'>Bhavyas Plant Nursery</h6>
-            <p className='lg:text-[14px] text-[10px] mb-2'> An e-commerce platform for buying and selling plants</p>
+            <p className='lg:text-[14px] text-[10px] mb-2'> An e-commerce platform <span className='text-red-100'>(Under maintanence)</span> </p>
             <div className='flex justify-start items-start'>
-            <IoIosArrowDropright className='lg:text-[30px] text-[30px]'/>
+              <a href="https://bhavyasplant.netlify.app/" className='no-underline text-[#ffffffbe]'><IoIosArrowDropright className='lg:text-[30px] text-[30px]'/>
+              </a>
             </div>
           </div>
 
@@ -74,7 +75,8 @@ function Projects() {
             <h6 className='lg:text-[20px] text-[17px] mb-0 mt-3'>Shows & Movies </h6>
             <p className='lg:text-[14px] text-[10px] mb-2'>A platform to explore and track movies and TV series</p>
             <div className='flex justify-start items-start'>
-            <IoIosArrowDropright className='lg:text-[30px] text-[25px]'/>
+              <a href="https://quonsahflix.netlify.app/" className='no-underline text-[#ffffffbe]'> <IoIosArrowDropright className='lg:text-[30px] text-[25px]'/>
+              </a>
             </div>
           </div>
 
