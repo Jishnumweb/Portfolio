@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaInstagram } from "react-icons/fa6";import { AiOutlineLinkedin } from "react-icons/ai";
+import { FaInstagram, FaLaravel, FaPhp, FaWordpress } from "react-icons/fa6";import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
@@ -8,7 +8,7 @@ import { FaReact } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -71,42 +71,62 @@ function Hero() {
                             <div className=' group lg:h-[100px] h-[80px]  transition  bg-[#2c28284f] lg:p-[20px_3-010x] flex flex-col justify-center items-center lg:rounded-[9px] rounded-[7px]'>
                                 <h4 className='text-[#ffffff90] group-hover:text-[#E34F26] transition duration-300 lg:text-[30px] text-[23px] '><FaHtml5 />
                                 </h4>
-                                <h4 className='font-bold lg:text-[16px] text-[13px] text-[#ffffff90]'>HTML</h4>
+                                <h4 className='lg:text-sm font-bold text-[13px] text-[#ffffff90]'>HTML</h4>
                             </div>
                             <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
                                 <h4 className='text-[#ffffff90] text-[23px] lg:text-[30px] group-hover:text-[#38BDF8] transition duration-300'><IoLogoCss3 />
                                 </h4>
-                                <h4 className='font-bold  lg:text-[16px] text-[13px] text-[#ffffff90]'>CSS</h4>
+                                <h4 className='font-bold  lg:text-sm text-[13px] text-[#ffffff90]'>CSS</h4>
                             </div>
                             <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
                                 <h4 className='text-[#ffffff90] group-hover:text-[yellow] transition duration-300 lg:text-[30px] text-[23px] '><BiLogoJavascript />
                                 </h4>
-                                <h4 className='font-bold  lg:text-[16px] text-[13px] text-[#ffffff90] '>JAVASCRIPT</h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90] '>JAVASCRIPT</h4>
                             </div>
                             <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
                                 <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#61DAFB] transition duration-300 text-[23px] '><FaReact />
                                 </h4>
-                                <h4 className='font-bold  lg:text-[16px] text-[13px] text-[#ffffff90]'>REACT JS</h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>REACT JS</h4>
                             </div>
                             <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
                                 <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#339933] transition duration-300 text-[23px] '><FaNodeJs />
                                 </h4>
-                                <h4 className='font-bold  lg:text-[16px] text-[13px] text-[#ffffff90]'>NODE JS</h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>NODE JS</h4>
                             </div>
                             <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
                                 <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#ffe1e1] transition duration-300 text-[23px] '><SiExpress />
                                 </h4>
-                                <h4 className='font-bold  lg:text-[16px] text-[13px] text-[#ffffff90]'>EXPRESSJS</h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>EXPRESSJS</h4>
                             </div>
                             <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
                                 <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#47A248] transition duration-300 text-[23px] '><SiMongodb />
                                 </h4>
-                                <h4 className='font-bold  lg:text-[16px] text-[13px] text-[#ffffff90]'>MONGODB</h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>MONGODB</h4>
                             </div>
                             <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
                                 <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#38BDF8] transition duration-300 text-[23px] '><RiTailwindCssFill />
                                 </h4>
-                                <h4 className='font-bold  lg:text-[16px] text-[13px] text-[#ffffff90]'>TAILWIND</h4>
+                                <h4 className='font-bold lg:text-sm text-sm text-[#ffffff90]'>TAILWIND</h4>
+                            </div>
+                            <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
+                                <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#000000] transition duration-300 text-[23px] '><RiNextjsLine />
+                                </h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>NEXT JS</h4>
+                            </div>
+                            <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
+                                <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#4989a7] transition duration-300 text-[23px] '><FaPhp />
+                                </h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>PHP</h4>
+                            </div>
+                            <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
+                                <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#cc5353] transition duration-300 text-[23px] '><FaLaravel />
+                                </h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>LARAVEL</h4>
+                            </div>
+                            <div className='h-[80px] group lg:h-[100px] bg-[#2c28284f] lg:p-[20px_30px] flex flex-col justify-center items-center rounded-[9px]'>
+                                <h4 className='text-[#ffffff90] lg:text-[30px] group-hover:text-[#38BDF8] transition duration-300 text-[23px] '><FaWordpress />
+                                </h4>
+                                <h4 className='font-bold  lg:text-sm text-sm text-[#ffffff90]'>WORDPRESS</h4>
                             </div>
 
 
