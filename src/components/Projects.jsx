@@ -56,7 +56,7 @@ function Projects() {
           <img src="https://wallpaperaccess.com/full/1088655.jpg" alt="" className='object-cover lg:h-[450px] h-[auto] saturate-0 hover:saturate-100 rounded-[10px]' />
           <div>
             <h6 className='lg:text-[20px] text-[17px] mb-0 mt-3'>Liverpool Fans Kerala</h6>
-            <p className='lg:text-[14px] text-[10px] mb-2'> A dedicated platform for Liverpool FC fans in Kerala</p>
+            <p className='lg:text-[14px] text-[10px] mb-2'> A dedicated platform for Liverpool FC fans  Kerala</p>
             <div className='flex justify-start items-start'>
             <IoIosArrowDropright className='lg:text-[30px] text-[25px]'/>
             </div>
